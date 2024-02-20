@@ -41,7 +41,15 @@ class LoginScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   children: [
-                    customTextField(),
+                    customTextField(title: email, hint: emailHint),
+                    customTextField(title: password, hint: passwordHint),
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: TextButton(
+                        onPressed: () {},
+                        child: const Text(forgetPass),
+                      ),
+                    ),
                   ],
                 ),
               )

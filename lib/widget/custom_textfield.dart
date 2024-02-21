@@ -32,7 +32,7 @@ Widget customTextField({String? title, String? hint, controllor}) {
         ),
       ),
       const SizedBox(
-        height: 15,
+        height: 20,
       ),
     ],
   );
